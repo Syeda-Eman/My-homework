@@ -9,10 +9,10 @@
   <div> 
     <p>Hey, <strong>hello</strong></p>
     <p>Welcome to my first web <em>page!</em></p>
-    <p>Yes <strong>you are right</strong></p>
+    <p>Yes, <strong>you are right</strong></p>
     <p>This <small>yellow</small> background <em>is to annoy you</em></p>
 
-    <a href="https://emanshahid.lovable.app/" title="Click to see an absolute genius at work">My Awesome Portfolio</a>
+    <a href="https://emanshahid.lovable.app/" title="Click to see an absolute genius at work">My Awesome Portfolio</a> | 
     <a href="about.html" title="A page all about me, mostly detailing my snack preferences">The Top Secret About page</a>
   </div>
 
@@ -29,33 +29,33 @@
     <h3>The Ultimate Random Mushroom Kingdom Tier List:</h3> 
     <ul>
         <li>Mario (The Legend)</li>
-        <li>Luigi (The gree legend who is secretly terrified)</li> 
+        <li>Luigi (The green legend who is secretly terrified)</li> 
         <li>Toad (The one who screams at 500 decibels)</li>
         <li>Bowser (Just wants to be included in the kart races)</li>
     </ul> 
   </div>
+
   <hr>
 
-<!--Span tag below-->
-  <div>
-    <span> Its a span tag. It doesn't do much, but it's trying its best.</span>
+<div>
+    <span> It's a span tag. It doesn't do much, but it's trying its best.</span>
   </div>
  
   <div>
-    <span> Its a <br> <strong> BROKEN</strong><br> span tag! Drama! Suspense! Line breaks!</span>
+    <span> It's a <br> <strong> BROKEN</strong><br> span tag! Drama! Suspense! Line breaks!</span>
   </div>
 
   <hr>
   <div>
-  <img src="Quiet-cup.png" alt="I am a noisy cup" width="300">
-  <p><em> A picture of a quiet cup being incredibly loud.</em></p>
+    <img src="Quiet-cup.png" alt="I am a noisy cup" width="300">
+    <p><em> A picture of a quiet cup being incredibly loud.</em></p>
   </div>
 
   <hr>
 
   <blockquote>
     "Indenting wasn't my intention!" <br>
-    - <em>An anonymus, stressed programmer, 2026</em>
+    - <em>An anonymous, stressed programmer, 2026</em>
   </blockquote>
 
   <button type="button" onclick="alert('I literally told you not to click it.')">DO NOT CLICK!</button>
@@ -70,55 +70,65 @@
     <fieldset style="border: 2px solid #ff4500; padding: 20px; border-radius: 10px;">
       <legend><strong>Personal Interrogation Data</strong></legend>
 
-    <label for="username">Enter your superhero alias:</label>
-    <input type="text" id="username" name="username" placeholder="e.g., Captain-Snack-A-Lot" required>
-    <br><br>
-    <label for="email">Enter email for spamming you with cat memes:</label>
-    <input type="email" id="email" name="email" placeholder="definitely-real-email@gmail.com"required>
-    <br><br>
-    <label for="password">Super secret password:</label>
-    <input type="password" id="password" name="password" placeholder="123456 (very secure)"required> 
-    
-    <p>Select your ancient age bracket:</p>
+      <label for="username">Enter your superhero alias:</label>
+      <input type="text" id="username" name="username" placeholder="e.g., Captain-Snack-A-Lot" required>
+      <br><br>
+      
+      <label for="email">Enter email for spamming you with cat memes:</label>
+      <input type="email" id="email" name="email" placeholder="definitely-real-email@gmail.com" required>
+      <br><br>
+      
+      <label for="password">Super secret password:</label>
+      <input type="password" id="password" name="password" placeholder="123456 (very secure)" required> 
+      
+      <p>Select your ancient age bracket:</p>
 
-    <input type="radio" name="age" value="0-25" id="option-1">
-    <label for="option-1">0-25 (A young fledgling)</label>
-    <input type="radio" name="age" value="26-50" id="option-2">
-    <label for="option-2">26-50 (Back pain territory)</label><br>
-    <input type="radio" name="age" value="51+" id="option-3">
-    <label for="option-3">51+ (Wise ancient wizard)</label>
+      <input type="radio" name="age" value="0-18" id="option-1">
+      <label for="option-1">0-18 (What are you doin here kiddo)</label><br>
 
-    <br><br>
-    <label for="question">Security question to prove you aren't a robot:</label>
-    <select name="question" id="question">
-      <option value="q1">What is your favourite color? (Why is it neon green?)</option>
-      <option value="q2">What is the model of your car? (If you have one)</option>
-      <option value="q3">What is your favourite vegetable? (I know there isn't any)</option>
-    </select>
-    <br><br>
+      <input type="radio" name="age" value="18-30" id="option-2">
+      <label for="option-2">18-30 (A young fledgling)</label><br>
+      
+      <input type="radio" name="age" value="30-50" id="option-3">
+      <label for="option-3">30-50 (Back pain territory)</label><br>
+      
+      <input type="radio" name="age" value="51+" id="option-4">
+      <label for="option-4">51+ (Wise ancient wizard)</label><br>
 
-    <label for="answer">Your honest answer:</label>
-    <input type="text" id="answer" name="answer" placeholder="Type truth here...">
+      <br><br>
+      <label for="question">Security question to prove you aren't a robot:</label>
+      <select name="question" id="question">
+        <option value="q1">What is your favourite color? (Why is it neon green?)</option>
+        <option value="q2">What is the model of your car? (If you have one)</option>
+        <option value="q3">What is your favourite vegetable? (I know there isn't any)</option>
+      </select>
+      <br><br>
 
-    <p>Check all that apply to you:</p>
-    <input type="checkbox" id="check1" name="traits" value="pizza">
-    <label for="check1"> I would slap my sibling for a slice of pizza.</label><br>
+      <label for="answer">Your honest answer:</label>
+      <input type="text" id="answer" name="answer" placeholder="Type truth here...">
 
-    <input type="checkbox" id="check2" name="traits" value="sleep">
-    <label for="check2"> I code better when I am supposed to be sleeping.</label><br>
+      <p>Check all that apply to you:</p>
+      <input type="checkbox" id="check1" name="traits" value="pizza">
+      <label for="check1"> I would slap my sibling for a slice of pizza.</label><br>
 
-    <br>
-    <label for="bio">Your Life Strory (In 3 sentences or less, we don't have all day):</label><br>
-    <textarea name="bio" id="bio" cols="40" rows="5" placeholder="Once upon a time, I tried to code HTML..."></textarea>
+      <input type="checkbox" id="check2" name="traits" value="sleep">
+      <label for="check2"> I code better when I am supposed to be sleeping.</label><br>
 
-    <br><br>
-    <input type="reset" value="Panic and Clear Form">
-    <input type="submit" value = "Launch the Rocket (Submit)">
-  </fieldset>
-</form>
+      <input type="checkbox" id="check3" name="traits" value="exam">
+      <label for="check3"> I open book the day before exam.</label><br>
 
-<p style="font-size: 10px; color: gray; text-align: center;">
-  No cookies were harmed in the making of this web page. Except the chocolate chip ones I ate while coding it.
-  </p>                                                                                                        
+      <br>
+      <label for="bio">Your Life Story (In 3 sentences or less, we don't have all day):</label><br>
+      <textarea name="bio" id="bio" cols="40" rows="5" placeholder="Once upon a time, I tried to code HTML..."></textarea>
+
+      <br><br>
+      <input type="reset" value="Panic and Clear Form">
+      <input type="submit" value="Launch the Rocket (Submit)">
+    </fieldset>
+  </form>
+
+  <p style="font-size: 10px; color: gray; text-align: center;">
+    No cookies were harmed in the making of this web page. Except the chocolate chip ones I ate while coding it.
+  </p>                                                                                                                 
 </body>
 </html>
