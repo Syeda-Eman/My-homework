@@ -44,65 +44,81 @@
   <div>
     <span> Its a <br> <strong> BROKEN</strong><br> span tag! Drama! Suspense! Line breaks!</span>
   </div>
-  
+
+  <hr>
+  <div>
+  <img src="Quiet-cup.png" alt="I am a noisy cup" width="300">
+  <p><em> A picture of a quiet cup being incredibly loud.</em></p>
+  </div>
+
   <hr>
 
-  <img src="Quiet-cup.png" alt="I am a noisy cup" width="300">
-
   <blockquote>
-    Indenting wasn't my intention!
+    "Indenting wasn't my intention!" <br>
+    - <em>An anonymus, stressed programmer, 2026</em>
   </blockquote>
 
-  <p style="color: red;">A different color :)</p>
+  <button type="button" onclick="alert('I literally told you not to click it.')">DO NOT CLICK!</button>
 
-</body>
-</html>
+  <p style="color: red; font-weight: bold; font-size: 20px;">A different color, because regular black text is too mainstream. :)</p>
 
-<hr>
+  <hr>
+  <hr>
+  <h1>The Totally Legal & Not at all sus form</h1>
 
-<html>
-<head>
-  <title>HTML Forms</title>
-</head>
-<body>
-  <h1>HTML Forms</h1>
-  <form>
-    <label for="username">enter username:</label>
-    <input type="text" id="username" name="username" placeholder="username" required>
+  <form action="#" method="GET">
+    <fieldset style="border: 2px solid #ff4500; padding: 20px; border-radius: 10px;">
+      <legend><strong>Personal Interrogation Data</strong></legend>
+
+    <label for="username">Enter your superhero alias:</label>
+    <input type="text" id="username" name="username" placeholder="e.g., Captain-Snack-A-Lot" required>
     <br><br>
-    <label for="email">enter email:</label>
-    <input type="email" id="email" name="email" placeholder="your email" required>
+    <label for="email">Enter email for spamming you with cat memes:</label>
+    <input type="email" id="email" name="email" placeholder="definitely-real-email@gmail.com"required>
     <br><br>
-    <label for="password">enter password:</label>
-    <input type="password" id="password" name="password" placeholder="choose a password" required>
+    <label for="password">Super secret password:</label>
+    <input type="password" id="password" name="password" placeholder="123456 (very secure)"required> 
     
-    <p>Select your age:</p>
+    <p>Select your ancient age bracket:</p>
 
     <input type="radio" name="age" value="0-25" id="option-1">
-    <label for="option-1">0-25</label>
+    <label for="option-1">0-25 (A young fledgling)</label>
     <input type="radio" name="age" value="26-50" id="option-2">
-    <label for="option-2">26-50</label>
+    <label for="option-2">26-50 (Back pain territory)</label><br>
     <input type="radio" name="age" value="51+" id="option-3">
-    <label for="option-3">51+</label>
+    <label for="option-3">51+ (Wise ancient wizard)</label>
 
     <br><br>
-    <label for="">Security question:</label>
+    <label for="question">Security question to prove you aren't a robot:</label>
     <select name="question" id="question">
-      <option value="q1">What is your favourite color?</option>
-      <option value="q2">What is your favourite fruit?</option>
-      <option value="q3">What is your favourite vegetable?</option>
+      <option value="q1">What is your favourite color? (Why is it neon green?)</option>
+      <option value="q2">What is the model of your car? (If you have one)</option>
+      <option value="q3">What is your favourite vegetable? (I know there isn't any)</option>
     </select>
     <br><br>
 
-    <label for="answer">Security question answer:</label>
-    <input type="text" id="answer" name="answer">
+    <label for="answer">Your honest answer:</label>
+    <input type="text" id="answer" name="answer" placeholder="Type truth here...">
+
+    <p>Check all that apply to you:</p>
+    <input type="checkbox" id="check1" name="traits" value="pizza">
+    <label for="check1"> I would slap my sibling for a slice of pizza.</label><br>
+
+    <input type="checkbox" id="check2" name="traits" value="sleep">
+    <label for="check2"> I code better when I am supposed to be sleeping.</label><br>
+
+    <br>
+    <label for="bio">Your Life Strory (In 3 sentences or less, we don't have all day):</label><br>
+    <textarea name="bio" id="bio" cols="40" rows="5" placeholder="Once upon a time, I tried to code HTML..."></textarea>
 
     <br><br>
-    <label for="bio">Your bio:</label><br>
-    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+    <input type="reset" value="Panic and Clear Form">
+    <input type="submit" value = "Launch the Rocket (Submit)">
+  </fieldset>
+</form>
 
-    <br><br>
-    <input type="submit" value="submit the form">
-  </form>
+<p style="font-size: 10px; color: gray; text-align: center;">
+  No cookies were harmed in the making of this web page. Except the chocolate chip ones I ate while coding it.
+  </p>                                                                                                        
 </body>
 </html>
